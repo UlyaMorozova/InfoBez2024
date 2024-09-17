@@ -15,8 +15,8 @@ csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
 ## Pdf output format
 toc: true # Table of contents
 toc-depth: 2
-lof: true # List of figures
-lot: true # List of tables
+lof: false # List of figures
+lot: false # List of tables
 fontsize: 12pt
 linestretch: 1.5
 papersize: a4
@@ -68,7 +68,7 @@ header-includes:
   - \floatplacement{figure}{H} # keep figures where there are in the text
 ---
 
-#### **Цель работы**
+# **Цель работы**
 
 Целью данной работы является приобретение практических навыков установки операционной системы на виртуальную машину, настройки минимально необходимых для дальнейшей работы сервисов.
 
@@ -128,8 +128,6 @@ header-includes:
 # Выводы
 
 Мы приобрели практические навыки в установке операционной системы на виртуальную машину и настройке минимально необходимых для дальнейшей работы сервисов.
-
-
 
 ::: {#refs}
 :::
